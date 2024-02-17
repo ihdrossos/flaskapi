@@ -9,3 +9,8 @@ items = {
         "price":180.50
     }
 }
+
+
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
