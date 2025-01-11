@@ -1,4 +1,4 @@
-stores = {}
+from typing import Dict, List
 items = {
     1: {
         "name": "chair",
@@ -10,7 +10,7 @@ items = {
     }
 }
 
+stores = {}
 
-from flask_sqlalchemy import SQLAlchemy
 
-db = SQLAlchemy()
+
